@@ -1,0 +1,1666 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: E-cab taxi booking manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-15 06:15+0000\n"
+"PO-Revision-Date: 2024-09-10 15:07+0330\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Loco-Version: 2.6.11; wp-6.6.1\n"
+"X-Domain: ecab-taxi-booking-manager\n"
+"Last-Translator: \n"
+"Language: fa_IR\n"
+
+#: templates/registration/get_details.php:297
+msgid " 0 KM"
+msgstr " 0 کیلومتر"
+
+#: templates/registration/get_details.php:295
+msgid " 0 MILE"
+msgstr " 0 مایل"
+
+#: templates/registration/get_end_place.php:24
+msgid " Can not find any Destination Location"
+msgstr " نمی توان هیچ مقصدی را پیدا کرد"
+
+#: templates/registration/summary.php:73
+msgid " Details"
+msgstr " جزئیات"
+
+#: templates/registration/get_details.php:155
+msgid " Enter Drop-Off Location"
+msgstr " مکان پیاده شدن را وارد کنید (مقصد)"
+
+#: Admin/MPTBM_CPT.php:93
+msgid " Feature Image"
+msgstr " تصویر شاخص"
+
+#: Admin/MPTBM_CPT.php:94 Admin/MPTBM_CPT.php:95 Admin/MPTBM_CPT.php:96
+msgid " featured image"
+msgstr " تصویر برجسته"
+
+#: Admin/MPTBM_Settings_Global.php:29
+msgid " Global Settings"
+msgstr " تنظیمات سراسری"
+
+#: Admin/MPTBM_CPT.php:81
+msgid " Item:"
+msgstr " آیتم:"
+
+#: Admin/MPTBM_CPT.php:79 Admin/MPTBM_CPT.php:80
+msgid " List"
+msgstr " فهرست"
+
+#: Admin/MPTBM_CPT.php:99 Admin/MPTBM_CPT.php:101
+msgid " list"
+msgstr "فهرست"
+
+#: Admin/MPTBM_CPT.php:100
+msgid " list navigation"
+msgstr " پیمایش لیست"
+
+#: Admin/MPTBM_CPT.php:91
+msgid " Not found"
+msgstr " یافت نشد"
+
+#: Admin/MPTBM_CPT.php:92
+msgid " Not found in Trash"
+msgstr " در سطل زباله یافت نشد"
+
+#: templates/registration/get_end_place.php:18 templates/registration/get_details.php:152
+msgid " Select Destination Location"
+msgstr " محل مقصد را انتخاب کنید"
+
+#: templates/registration/get_details.php:127
+msgid " Select Pick-Up Location"
+msgstr " محل سوار شدن را انتخاب کنید(مبدأ)"
+
+#: Admin/MPTBM_Settings_Global.php:176 Admin/MPTBM_Settings_Global.php:187
+#: Admin/MPTBM_Settings_Global.php:194 Admin/MPTBM_Settings_Global.php:201
+#: Admin/MPTBM_Settings_Global.php:214 Admin/MPTBM_Settings_Global.php:225
+msgid ". Default is"
+msgstr "پیش فرض می باشد"
+
+#: templates/registration/get_details.php:307
+msgid "0 Hour"
+msgstr "0 ساعت"
+
+#: templates/registration/get_details.php:226 templates/registration/get_details.php:241
+msgid "1 Hour"
+msgstr "1 ساعت"
+
+#: Admin/MPTBM_Settings_Global.php:207
+msgid "10"
+msgstr "10"
+
+#: templates/registration/get_details.php:250
+msgid "10 Hours"
+msgstr "10 ساعت"
+
+#: templates/registration/get_details.php:251
+msgid "11 Hours"
+msgstr "11 ساعت"
+
+#: templates/registration/get_details.php:252
+msgid "12 Hours"
+msgstr "12 ساعت"
+
+#: Admin/MPTBM_Settings_Global.php:206
+msgid "15"
+msgstr "15"
+
+#: templates/registration/get_details.php:227 templates/registration/get_details.php:242
+msgid "2 Hours"
+msgstr "2 ساعت"
+
+#: templates/registration/get_details.php:228 templates/registration/get_details.php:243
+msgid "3 Hours"
+msgstr "3 ساعت"
+
+#: Admin/MPTBM_Settings_Global.php:205
+msgid "30"
+msgstr "30"
+
+#: templates/registration/get_details.php:229 templates/registration/get_details.php:244
+msgid "4 Hours"
+msgstr "4 ساعت"
+
+#: Admin/MPTBM_Settings_Global.php:208
+msgid "5"
+msgstr "5"
+
+#: templates/registration/get_details.php:230 templates/registration/get_details.php:245
+msgid "5 Hours"
+msgstr "5 ساعت"
+
+#: templates/registration/get_details.php:231 templates/registration/get_details.php:246
+msgid "6 Hours"
+msgstr "6 ساعت"
+
+#: templates/registration/get_details.php:247
+msgid "7 Hours"
+msgstr "7 ساعت"
+
+#: templates/registration/get_details.php:248
+msgid "8 Hours"
+msgstr "8 ساعت"
+
+#: templates/registration/get_details.php:249
+msgid "9 Hours"
+msgstr "9 ساعت"
+
+#: Admin/MPTBM_Settings.php:18 Admin/settings/MPTBM_Extra_Service.php:25
+#: Admin/settings/MPTBM_Operation_Areas.php:23
+msgid "</span>"
+msgstr "</span>"
+
+#. Description of the plugin
+msgid "A Complete Transportation Solution for WordPress by MagePeople."
+msgstr "یک راه حل کامل حمل و نقل ( رزرو تاکسی ) راستچین و ترجمه توسط پردیس دیجیتال."
+
+#: Admin/settings/MPTBM_Price_Settings.php:132 Admin/settings/MPTBM_Extra_Service.php:52
+#: Admin/settings/MPTBM_Extra_Service.php:189 Admin/settings/MPTBM_General_Settings.php:94
+msgid "Action"
+msgstr "اقدام"
+
+#: Admin/MPTBM_Quick_Setup.php:190
+msgid "Active Now"
+msgstr "اکنون فعال است"
+
+#: Admin/MPTBM_Settings.php:65
+msgid "Add a list of tour activities for this tour."
+msgstr "لیستی از فعالیت ها را برای این سفر اضافه کنید."
+
+#: Admin/settings/MPTBM_Extra_Service.php:66 Admin/settings/MPTBM_Extra_Service.php:204
+msgid "Add Extra New Service"
+msgstr "سرویس جدید اضافه کنید"
+
+#: Admin/MPTBM_CPT.php:83 Admin/MPTBM_CPT.php:84
+msgid "Add New "
+msgstr "افزودن"
+
+#: Admin/settings/MPTBM_General_Settings.php:110
+msgid "Add New Item"
+msgstr "افزودن آیتم جدید"
+
+#: Admin/MPTBM_CPT.php:153
+msgid "Add New Location"
+msgstr "اضافه کردن مکان جدید"
+
+#: Admin/settings/MPTBM_Date_Settings.php:282
+msgid "Add New Off date"
+msgstr "اضافه کردن تاریخ جدید"
+
+#: Admin/settings/MPTBM_Date_Settings.php:140
+msgid "Add New Particular date"
+msgstr "اضافه کردن تاریخ خاص"
+
+#: Admin/settings/MPTBM_Price_Settings.php:151
+msgid "Add New Price"
+msgstr "اضافه کردن قیمت جدید"
+
+#: Admin/settings/MPTBM_Date_Settings.php:267
+msgid "Add off dates"
+msgstr "اضافه کردن تاریخ"
+
+#: Admin/settings/MPTBM_Date_Settings.php:124
+msgid "Add Particular Dates"
+msgstr "اضافه کردن تاریخ های خاص"
+
+#: Admin/MPTBM_CPT.php:82
+msgid "All "
+msgstr "همه"
+
+#: Admin/MPTBM_CPT.php:149
+msgid "All Locations"
+msgstr "همه مکان ها"
+
+#: Admin/MPTBM_Settings_Global.php:141
+msgid "and copy your icon code and paste it here."
+msgstr "و کد آیکون خود را کپی کرده و در اینجا قرار دهید."
+
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:79
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:210
+msgid "Apartment, suite, unit, etc."
+msgstr "آپارتمان، سوئیت، واحد و غیره"
+
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:83
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:214
+msgid "Apartment, suite, unit, etc. (optional)"
+msgstr "آپارتمان، سوئیت، واحد و غیره (اختیاری)"
+
+#: Frontend/MPTBM_Woocommerce.php:359
+msgid "Approximate Distance"
+msgstr "فاصله تقریبی"
+
+#: Frontend/MPTBM_Woocommerce.php:145
+msgid "Approximate Distance "
+msgstr "فاصله تقریبی"
+
+#: Frontend/MPTBM_Woocommerce.php:364
+msgid "Approximate Time"
+msgstr "زمان تقریبی"
+
+#: Frontend/MPTBM_Woocommerce.php:146
+msgid "Approximate Time "
+msgstr "زمان تقریبی"
+
+#: Admin/MPTBM_Guideline.php:24
+msgid "available Shortcode"
+msgstr "کد کوتاه در دسترس"
+
+#: Frontend/MPTBM_Woocommerce.php:446
+msgid "Base Price : "
+msgstr "قیمت پایه:"
+
+#: Admin/settings/MPTBM_General_Settings.php:54
+msgid "Basic Configuration"
+msgstr "پیکربندی اولیه"
+
+#: templates/registration/extra_service.php:78
+msgid "Book Now"
+msgstr "اکنون رزرو کنید"
+
+#: Frontend/MPTBM_Woocommerce.php:108
+msgid "Booking Details "
+msgstr "جزئیات رزرو"
+
+#: Admin/settings/MPTBM_Operation_Areas.php:171
+msgid "Both Direction (Origin &harr; Dest)"
+msgstr "دوطرفه (مبدا و مقصد )"
+
+#: Admin/MPTBM_Settings.php:64
+msgid "By default Activities type is ON but you can keep it off by switching this option"
+msgstr ""
+"به‌طور پیش‌فرض، نوع فعالیت‌ها روشن است، اما می‌توانید با تغییر این گزینه آن را خاموش نگه "
+"دارید"
+
+#: Admin/MPTBM_Settings.php:72
+msgid ""
+"By default Display Get a Questions is ON but you can keep it off by switching this option"
+msgstr ""
+"به طور پیش‌فرض نمایش دریافت سوالات روشن است اما می‌توانید با تغییر این گزینه آن را خاموش "
+"نگه دارید"
+
+#: Admin/MPTBM_Settings.php:74
+msgid "By default Duration is ON but you can keep it off by switching this option"
+msgstr ""
+"به طور پیش‌فرض مدت زمان روشن است، اما می‌توانید با تغییر این گزینه، آن را خاموش نگه دارید"
+
+#: Admin/MPTBM_Settings.php:81
+msgid "By default Extra services is ON but you can keep it off by switching this option"
+msgstr ""
+"به‌طور پیش‌فرض خدمات اضافی روشن است، اما می‌توانید با تغییر این گزینه آن را خاموش نگه دارید"
+
+#: Admin/MPTBM_Settings.php:71
+msgid "By default Seat Info is ON but you can keep it off by switching this option"
+msgstr ""
+"به‌طور پیش‌فرض اطلاعات صندلی روشن است، اما می‌توانید با تغییر این گزینه، آن را خاموش نگه "
+"دارید"
+
+#: Admin/MPTBM_Settings.php:69
+msgid "By default Section title is style one"
+msgstr "عنوان بخش به طور پیش فرض سبک یک است"
+
+#: Admin/MPTBM_Settings.php:73
+msgid "By default Sidebar Widget is Off but you can keep it ON by switching this option"
+msgstr ""
+"به‌طور پیش‌فرض ابزارک نوار کناری خاموش است، اما می‌توانید با تغییر این گزینه، آن را روشن "
+"نگه دارید"
+
+#: Admin/MPTBM_Settings.php:79 Admin/MPTBM_Settings.php:80
+msgid "By default slider is ON but you can keep it off by switching this option"
+msgstr ""
+"به طور پیش فرض نوار لغزنده روشن است اما می توانید با تغییر این گزینه آن را خاموش نگه "
+"دارید"
+
+#: Admin/MPTBM_Settings.php:70
+msgid ""
+"By default, the ticket purchase system is open. Once you check the availability, you can "
+"choose the system that best suits your needs."
+msgstr ""
+"به طور پیش فرض سیستم خرید بلیط باز است. پس از بررسی در دسترس بودن، می توانید سیستمی را "
+"انتخاب کنید که به بهترین وجه با نیازهای شما مطابقت دارد."
+
+#: inc/MPTBM_Function.php:145
+msgid "Category"
+msgstr "دسته بندی"
+
+#: Admin/MPTBM_Settings_Global.php:147
+msgid "Category Label"
+msgstr "برچسب دسته"
+
+#: Admin/MPTBM_Settings_Global.php:154
+msgid "Category Slug"
+msgstr "اسلاگ دسته بندی"
+
+#: Admin/MPTBM_Wc_Checkout_Fields.php:80
+msgid "Checkout Fields"
+msgstr "فیلد پرداخت"
+
+#: transport_result.php:42 templates/registration/registration_layout.php:27
+msgid "Choose a vehicle"
+msgstr "نوع خودرو را انتخاب کنید"
+
+#: templates/registration/extra_service.php:18
+msgid "Choose Extra Features (Optional)"
+msgstr "ویژگی های اضافی را انتخاب کنید (اختیاری)"
+
+#: Admin/MPTBM_Quick_Setup.php:203
+msgid "Choose some general option."
+msgstr "چند گزینه کلی را انتخاب کنید"
+
+#: Admin/MPTBM_Settings_Global.php:267 Admin/MPTBM_Settings_Global.php:274
+msgid "Click Here"
+msgstr "اینجا را کلیک کنید"
+
+#: templates/registration/get_details.php:142 templates/registration/get_details.php:162
+msgid "Click here"
+msgstr "اینجا را کلیک کنید"
+
+#: inc/MPTBM_Dependencies.php:101
+msgid "Click Here to get google api key"
+msgstr "برای دریافت کلید google api اینجا را کلیک کنید"
+
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:47
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:178
+msgid "Company name"
+msgstr "نام شرکت"
+
+#: Admin/MPTBM_Settings_Global.php:306
+msgid "Completed"
+msgstr "تکمیل شد"
+
+#: Admin/MPTBM_Settings_Global.php:121
+msgid "completed"
+msgstr "Completed"
+
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:57
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:188
+msgid "Country / Region"
+msgstr "کشور / منطقه"
+
+#: Admin/MPTBM_Settings_Global.php:280
+msgid "Country Location"
+msgstr "موقعیت کشور"
+
+#: Admin/settings/MPTBM_Extra_Service.php:159
+msgid "Custom"
+msgstr "سفارشی"
+
+#: Admin/MPTBM_Settings_Global.php:141
+msgid "Dashicons Library."
+msgstr "کتابخانه Dashicons."
+
+#: Admin/MPTBM_Settings.php:33 Frontend/MPTBM_Woocommerce.php:370
+msgid "Date"
+msgstr "تاریخ"
+
+#: Frontend/MPTBM_Woocommerce.php:155
+msgid "Date "
+msgstr "تاریخ"
+
+#: Admin/settings/MPTBM_Date_Settings.php:99
+msgid "Date Settings"
+msgstr "تنظیمات تاریخ"
+
+#: Admin/settings/MPTBM_Date_Settings.php:110
+msgid "Date Type"
+msgstr "نوع تاریخ"
+
+#: Admin/settings/MPTBM_Date_Settings.php:211
+msgid "Day"
+msgstr "روز"
+
+#: Admin/settings/MPTBM_Date_Settings.php:21
+msgid "Default"
+msgstr "پیش فرض"
+
+#: Admin/settings/MPTBM_Extra_Service.php:186
+msgid "Description"
+msgstr "توضیحات"
+
+#: Admin/settings/MPTBM_Operation_Areas.php:166
+msgid "Direction"
+msgstr "جهت"
+
+#: Admin/MPTBM_Settings_Global.php:235
+msgid "Disable single page checkout"
+msgstr "تسویه حساب تک صفحه را غیرفعال کنید"
+
+#: Admin/MPTBM_Settings_Global.php:79
+msgid "Disable/ Enable Taxi Return"
+msgstr "غیرفعال/فعال کردن بازگشت تاکسی"
+
+#: Admin/MPTBM_Settings_Global.php:90
+msgid "Disable/ Enable Taxi Waiting Time"
+msgstr "غیرفعال کردن/فعال کردن زمان انتظار تاکسی"
+
+#: Admin/MPTBM_Settings_Global.php:85 Admin/MPTBM_Settings_Global.php:96
+msgid "Disabled"
+msgstr "غیر فعال شده است"
+
+#: Admin/settings/MPTBM_Price_Settings.php:93
+msgid "Distance + Duration as google map"
+msgstr "فاصله + مدت زمان به عنوان نقشه گوگل"
+
+#: Admin/settings/MPTBM_Price_Settings.php:91
+msgid "Distance as google map"
+msgstr "فاصله به عنوان نقشه گوگل"
+
+#: Admin/MPTBM_Quick_Setup.php:140
+msgid "Done"
+msgstr "انجام شد"
+
+#: Frontend/MPTBM_Woocommerce.php:350 templates/registration/summary.php:42
+#: templates/registration/get_end_place.php:16 templates/registration/get_details.php:149
+msgid "Drop-Off Location"
+msgstr "محل پیاده شدن"
+
+#: Frontend/MPTBM_Woocommerce.php:142
+msgid "Drop-Off Location "
+msgstr "محل پیاده شدن"
+
+#: Admin/settings/MPTBM_Extra_Service.php:109
+msgid "Dropdown List"
+msgstr "لیست کشویی"
+
+#: Admin/MPTBM_Settings_Global.php:311
+msgid "Duration By Kilometer or Mile"
+msgstr "مدت زمان بر اساس کیلومتر یا مایل"
+
+#: Admin/settings/MPTBM_Price_Settings.php:92
+msgid "Duration/Time as google map"
+msgstr "مدت زمان/زمان به عنوان نقشه گوگل"
+
+#. Name of the plugin
+msgid "E-cab taxi booking manager"
+msgstr "رزرو تاکسی آنلاین"
+
+#: Admin/MPTBM_CPT.php:86
+msgid "Edit "
+msgstr "ویرایش کنید"
+
+#: Admin/MPTBM_CPT.php:150
+msgid "Edit Location"
+msgstr "ویرایش مکان"
+
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:145
+msgid "Email address"
+msgstr "آدرس ایمیل"
+
+#: Admin/MPTBM_Status.php:61
+msgid "Email Address : "
+msgstr "آدرس ایمیل:"
+
+#: Admin/MPTBM_Settings_Global.php:84 Admin/MPTBM_Settings_Global.php:95
+msgid "Enable"
+msgstr "فعال کردن"
+
+#: Admin/MPTBM_Settings_Global.php:224
+msgid "Enable filter via features"
+msgstr "فعال کردن فیلتر از طریق ویژگی‌ها"
+
+#: Admin/MPTBM_Settings_Global.php:213
+msgid "Enable return in different date"
+msgstr "بازگشت در تاریخ های مختلف را فعال کنید"
+
+#: Admin/settings/MPTBM_Price_Settings.php:130
+msgid "End Location"
+msgstr "مکان پایانی"
+
+#: Admin/settings/MPTBM_Date_Settings.php:214
+msgid "End Time"
+msgstr "پایان زمان"
+
+#: Admin/settings/MPTBM_General_Settings.php:38
+msgid "Engine"
+msgstr "موتور"
+
+#: Admin/MPTBM_Settings_Global.php:187
+msgid "Enter page slug. Leave blank if you dont want to enable this setting"
+msgstr "وارد صفحه اسلاگ شوید. اگر نمی‌خواهید این تنظیمات رافعال کنید آن را خالی بگذارید"
+
+#: Admin/MPTBM_Settings_Global.php:194
+msgid "Enter page url. Leave blank if you dont want to enable this setting"
+msgstr "آدرس صفحه را وارد کنید اگر نمی‌خواهید این تنظیم را فعال کنید، آن را خالی بگذارید"
+
+#: templates/registration/get_details.php:135
+msgid "Enter Pick-Up Location"
+msgstr "محل سوارشدن را وارد کنید (مبدأ)"
+
+#: transport_result.php:35 templates/registration/registration_layout.php:20
+msgid "Enter Ride Details"
+msgstr "انتخاب سفر"
+
+#: Admin/settings/MPTBM_Extra_Service.php:104
+msgid "EX: 10"
+msgstr "برای مثال : 10"
+
+#: Admin/settings/MPTBM_Extra_Service.php:100
+msgid "EX: Description"
+msgstr "توضیحات"
+
+#: Admin/settings/MPTBM_Extra_Service.php:96
+msgid "EX: Driver"
+msgstr "راننده"
+
+#: Admin/settings/MPTBM_Price_Settings.php:57 Admin/settings/MPTBM_Price_Settings.php:65
+#: Admin/settings/MPTBM_Price_Settings.php:74 Admin/settings/MPTBM_Price_Settings.php:106
+#: Admin/settings/MPTBM_Price_Settings.php:115 Admin/settings/MPTBM_Operation_Areas.php:151
+#: Admin/settings/MPTBM_Operation_Areas.php:160
+msgid "EX:10"
+msgstr "برای مثال : ۱۰"
+
+#: Admin/settings/MPTBM_Price_Settings.php:192 Admin/settings/MPTBM_Price_Settings.php:247
+#: Admin/settings/MPTBM_Price_Settings.php:295
+msgid "EX:10 "
+msgstr "برای مثال : ۱۰"
+
+#: Admin/settings/MPTBM_General_Settings.php:66
+#: Admin/settings/MPTBM_General_Settings.php:75
+msgid "EX:4"
+msgstr "برای مثال : 4"
+
+#: Admin/settings/MPTBM_Price_Settings.php:182 Admin/settings/MPTBM_Price_Settings.php:187
+msgid "EX:Dhaka"
+msgstr "برای مثال :‌تهران"
+
+#: Admin/MPTBM_Settings_Global.php:175
+msgid "Expired  Visibility"
+msgstr "قابلیت مشاهده منقضی شده"
+
+#: Admin/MPTBM_Settings.php:39
+msgid "Extra Service"
+msgstr "سرویس اضافی"
+
+#: Admin/settings/MPTBM_Extra_Service.php:38
+msgid "Extra Service Settings"
+msgstr "تنظیمات سرویس اضافی"
+
+#: Admin/MPTBM_CPT.php:120 Frontend/MPTBM_Woocommerce.php:452
+msgid "Extra Services"
+msgstr "خدمات اضافی"
+
+#: Frontend/MPTBM_Woocommerce.php:150 Frontend/MPTBM_Woocommerce.php:433
+#: templates/registration/summary.php:63 templates/registration/get_details.php:223
+msgid "Extra Waiting Hours"
+msgstr "ساعات انتظار اضافی"
+
+#: Admin/settings/MPTBM_General_Settings.php:57
+msgid "Feature Configuration"
+msgstr "تنظیمات ویژگی"
+
+#: Admin/MPTBM_CPT.php:101
+msgid "Filter "
+msgstr "فیلتر کنید"
+
+#: Admin/MPTBM_Quick_Setup.php:230
+msgid "Finalize Setup"
+msgstr "راه اندازی را نهایی کنید"
+
+#: Admin/MPTBM_Quick_Setup.php:233
+msgid "Finish & Save"
+msgstr "پایان و ذخیره"
+
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:29
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:160
+msgid "First name"
+msgstr "نام کوچک"
+
+#: Admin/settings/MPTBM_Price_Settings.php:95
+msgid "Fixed Hourly"
+msgstr "ساعتی ثابت شد"
+
+#: Admin/settings/MPTBM_Operation_Areas.php:140
+#: Admin/settings/MPTBM_Operation_Areas.php:148
+msgid "Fixed Price"
+msgstr "قیمت ثابت"
+
+#: Admin/MPTBM_Status.php:31
+msgid "For Woocommerce Environment Status"
+msgstr "برای وضعیت محیطی ووکامرس"
+
+#: Admin/MPTBM_Settings.php:61
+msgid "Frequently Asked Questions about this tour that customers need to know"
+msgstr "سوالات متداول در مورد این سفر که مشتریان باید بدانند"
+
+#: Admin/settings/MPTBM_General_Settings.php:44
+msgid "Fuel Type"
+msgstr "نوع سوخت"
+
+#: Admin/MPTBM_Quick_Setup.php:133
+msgid "General"
+msgstr "عمومی"
+
+#: Admin/settings/MPTBM_Date_Settings.php:103
+msgid "General Date Configuration"
+msgstr "پیکربندی کلی تاریخ"
+
+#: Admin/MPTBM_Settings.php:30
+msgid "General Info"
+msgstr "تنظیمات عمومی"
+
+#: Admin/settings/MPTBM_General_Settings.php:53
+msgid "General Information Settings"
+msgstr "تنظیمات اطلاعات عمومی"
+
+#: Admin/MPTBM_Quick_Setup.php:202
+msgid "General settings"
+msgstr "تنظیمات عمومی"
+
+#: Admin/settings/MPTBM_Extra_Service.php:35
+msgid "Global Extra Service Settings"
+msgstr "تنظیمات خدمات اضافی سراسری"
+
+#: Admin/MPTBM_Settings_Global.php:23
+msgid "Global Settings"
+msgstr " تنظیمات سراسری"
+
+#: Admin/MPTBM_Settings_Global.php:253
+msgid "Google map"
+msgstr "نقشه گوگل"
+
+#: Admin/MPTBM_Settings_Global.php:259
+msgid "Google MAP API"
+msgstr "گوگل مپ API"
+
+#: Admin/MPTBM_Settings_Global.php:62
+msgid "Google Map API Settings"
+msgstr "تنظیمات API نقشه گوگل"
+
+#: Admin/settings/MPTBM_Price_Settings.php:83
+msgid "google map base pricing option"
+msgstr "گزینه قیمت پایه نقشه گوگل"
+
+#: Admin/MPTBM_Guideline.php:16
+msgid "Guideline"
+msgstr "راهنما"
+
+#: Admin/settings/MPTBM_Date_Settings.php:100
+msgid "Here you can configure date."
+msgstr "در اینجا می توانید تاریخ را تنظیم کنید."
+
+#: Admin/settings/MPTBM_Date_Settings.php:104 Admin/settings/MPTBM_Date_Settings.php:111
+msgid "Here you can configure general date"
+msgstr "در اینجا می توانید تاریخ کلی را پیکربندی کنید"
+
+#: Admin/settings/MPTBM_Date_Settings.php:233
+msgid "Here you can configure Off Days & Dates."
+msgstr "در اینجا می توانید روزهای تعطیل و تاریخ ها را پیکربندی کنید."
+
+#: Admin/settings/MPTBM_Date_Settings.php:205
+msgid "Here you can configure Schedule date."
+msgstr "در اینجا می توانید تاریخ برنامه ریزی را پیکربندی کنید."
+
+#: Admin/settings/MPTBM_General_Settings.php:58
+msgid "Here you can On/Off feature list and create new feature."
+msgstr "در اینجا می توانید لیست ویژگی های روشن/خاموش و ایجاد ویژگی جدید را انجام دهید."
+
+#: Admin/settings/MPTBM_Price_Settings.php:45
+msgid "here you can set initial price, Waiting Time price, price calculation model"
+msgstr "در اینجا می توانید قیمت اولیه، قیمت زمان انتظار، مدل محاسبه قیمت را تنظیم کنید"
+
+#: Admin/settings/MPTBM_Operation_Areas.php:89 Admin/settings/MPTBM_Operation_Areas.php:270
+msgid "Here you can set operation area"
+msgstr "در اینجا می توانید منطقه عملیات را تنظیم کنید"
+
+#: Admin/settings/MPTBM_Price_Settings.php:49 Admin/settings/MPTBM_Extra_Service.php:39
+msgid "Here you can set price"
+msgstr "در اینجا می توانید قیمت را تعیین کنید"
+
+#: Admin/MPTBM_Settings_Global.php:134 Admin/MPTBM_Settings_Global.php:155
+#: Admin/MPTBM_Settings_Global.php:169
+msgid "hit the Save Settings button."
+msgstr "دکمه ذخیره تنظیمات  را کلیک کنید"
+
+#: Frontend/MPTBM_Woocommerce.php:150 Frontend/MPTBM_Woocommerce.php:153
+msgid "Hour "
+msgstr "ساعت"
+
+#: Frontend/MPTBM_Woocommerce.php:434 Frontend/MPTBM_Woocommerce.php:440
+#: templates/registration/summary.php:64 templates/registration/summary.php:69
+msgid "Hours"
+msgstr "ساعت"
+
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:69
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:200
+msgid "House number and street name"
+msgstr "شماره منزل و نام خیابان"
+
+#. URI of the plugin
+msgid "http://mage-people.com"
+msgstr "http://pardisdigital.ir"
+
+#. Author URI of the plugin
+msgid "http://www.mage-people.com/"
+msgstr "http://pardisdigital.ir/"
+
+#: Admin/MPTBM_Settings_Global.php:140 Admin/settings/MPTBM_Extra_Service.php:184
+msgid "Icon"
+msgstr "آیکون"
+
+#: Admin/settings/MPTBM_General_Settings.php:91
+msgid "Icon/Image"
+msgstr "آیکون/تصویر"
+
+#: templates/registration/get_details.php:143 templates/registration/get_details.php:163
+msgid "If you are not able to find your desired location"
+msgstr "اگر نمی توانید مکان مورد نظر خود را پیدا کنید"
+
+#: Admin/MPTBM_Settings_Global.php:127
+msgid "If you like to change the label in the dashboard menu, you can change it here."
+msgstr ""
+"اگر دوست دارید برچسب را در منوی داشبورد تغییر دهید، می توانید آن را در اینجا تغییر دهید."
+
+#: Admin/MPTBM_Settings_Global.php:162
+msgid "If you want to change the  category label in the dashboard menu you can change here"
+msgstr ""
+"اگر می‌خواهید برچسب دسته را در منوی داشبورد تغییر دهید، می‌توانید اینجا را تغییر دهید"
+
+#: Admin/MPTBM_Settings_Global.php:148
+msgid ""
+"If you want to change the  category label in the dashboard menu, you can change it here."
+msgstr ""
+"اگر می‌خواهید برچسب دسته را در منوی داشبورد تغییر دهید، می‌توانید آن را در اینجا تغییر "
+"دهید."
+
+#: Admin/MPTBM_Settings_Global.php:141
+msgid ""
+"If you want to change the  icon in the dashboard menu, you can change it from here, and "
+"the Dashboard icon only supports the Dashicons, So please go to "
+msgstr ""
+"اگر می خواهید نماد را در منوی داشبورد تغییر دهید، می توانید آن را از اینجا تغییر دهید، و "
+"نماد داشبورد فقط از ها پشتیبانی می کند، بنابراین لطفا به"
+
+#: Admin/MPTBM_Settings_Global.php:249
+msgid ""
+"If you want to disable Pricing system based on google map, please select Without google "
+"map. default Google map"
+msgstr ""
+"اگر می خواهید سیستم قیمت گذاری بر اساس نقشه گوگل را غیرفعال کنید، لطفاً بدون نقشه گوگل را "
+"انتخاب کنید. نقشه پیش فرض گوگل"
+
+#: Admin/MPTBM_Settings_Global.php:236
+msgid ""
+"If you want to disable single page checkout, please select Yes.That means active "
+"woocommerce checkout page active"
+msgstr ""
+"اگر می‌خواهید تسویه‌حساب تک صفحه‌ای را غیرفعال کنید، لطفاً بله را انتخاب کنید. این یعنی صفحه "
+"پرداخت فعال ووکامرس فعال است."
+
+#: Admin/MPTBM_Settings_Global.php:80
+msgid "If you want to disable taxi return, please select disable. default enable"
+msgstr ""
+"اگر می خواهید رفت و آمد تاکسی را غیرفعال کنید، لطفا غیر فعال کردن را انتخاب کنید. فعال "
+"به صورت پیش فرض"
+
+#: Admin/MPTBM_Settings_Global.php:91
+msgid "If you want to disable taxi Waiting Time, please select disable. default enable"
+msgstr ""
+"اگر می‌خواهید زمان انتظار تاکسی را غیرفعال کنید، لطفاً غیرفعال را انتخاب کنید. فعال به "
+"صورت پیش فرض"
+
+#: Admin/MPTBM_Settings_Global.php:176
+msgid "If you want to visible expired  ?, please select "
+msgstr "اگر می‌خواهید منقضی شده! قابل مشاهده باشد، لطفاً انتخاب کنید"
+
+#: Admin/settings/MPTBM_Operation_Areas.php:135
+msgid "Increase Price By"
+msgstr "افزایش قیمت تا"
+
+#: Admin/settings/MPTBM_Price_Settings.php:54
+msgid "Initial Price"
+msgstr "قیمت اولیه"
+
+#: Admin/settings/MPTBM_Extra_Service.php:108
+msgid "Input Box"
+msgstr "صندوق ورودی"
+
+#: Admin/MPTBM_CPT.php:97
+msgid "Insert into "
+msgstr "درج کنید"
+
+#: Admin/MPTBM_Quick_Setup.php:188
+msgid "Install & Active Now"
+msgstr "اکنون نصب و فعال کنید"
+
+#: Admin/settings/MPTBM_Operation_Areas.php:99
+msgid "Intercity Operation Area"
+msgstr "منطقه عملیات بین شهری"
+
+#: Admin/MPTBM_Settings_Global.php:200
+msgid "Interval of pickup/return time in frontend"
+msgstr "فاصله زمان سوار شدن / بازگشت در جلو"
+
+#: Admin/MPTBM_Quick_Setup.php:211
+msgid "It will change the Transportation post type label on the entire plugin."
+msgstr "این برچسب نوع پست حمل و نقل در کل افزونه را تغییر می دهد."
+
+#: Admin/MPTBM_Quick_Setup.php:220
+msgid ""
+"It will change the Transportation slug on the entire plugin. Remember after changing "
+"this slug you need to flush permalinks. Just go to Settings->Permalinks hit the Save "
+"Settings button"
+msgstr ""
+"در کل پلاگین حمل و نقل را تغییر می دهد. به یاد داشته باشید که پس از تغییر این اسلاگ باید "
+"پیوندهای دائمی را پاک کنید. فقط به Settings-> Permalinks بروید، دکمه Save Settings را "
+"بزنید"
+
+#: Admin/MPTBM_Settings_Global.php:315
+msgid "Kilometer"
+msgstr "کیلومتر"
+
+#: Admin/MPTBM_Settings_Global.php:126 Admin/settings/MPTBM_General_Settings.php:92
+msgid "Label"
+msgstr "برچسب"
+
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:38
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:169
+msgid "Last name"
+msgstr "نام خانوادگی"
+
+#: Admin/MPTBM_CPT.php:147
+msgid "Location"
+msgstr "موقعیت مکانی"
+
+#: Admin/MPTBM_CPT.php:146 Admin/MPTBM_CPT.php:148
+msgid "Locations"
+msgstr "موقعیت ها"
+
+#. Author of the plugin
+msgid "MagePeople Team"
+msgstr "پردیس دیجیتال"
+
+#: Admin/settings/MPTBM_Date_Settings.php:196
+msgid "Make Transport Available For 24 Hours"
+msgstr "حمل و نقل را به مدت 24 ساعت در دسترس قرار دهید"
+
+#: Admin/settings/MPTBM_Price_Settings.php:94
+msgid "Manual as fixed Location"
+msgstr "دفترچه راهنما به عنوان مکان ثابت"
+
+#: Admin/settings/MPTBM_Price_Settings.php:121 Admin/settings/MPTBM_Price_Settings.php:122
+msgid "Manual Price Settings"
+msgstr "تنظیمات دستی قیمت"
+
+#: Admin/settings/MPTBM_Date_Settings.php:186 Admin/settings/MPTBM_Date_Settings.php:187
+msgid "Maximum Advanced Day Booking"
+msgstr "حداکثر رزرو روز - پیشرفته"
+
+#: Admin/settings/MPTBM_General_Settings.php:72
+msgid "Maximum Bag"
+msgstr "حداکثر کیف"
+
+#: Admin/settings/MPTBM_General_Settings.php:63
+msgid "Maximum Passenger"
+msgstr "حداکثر مسافر"
+
+#: Admin/MPTBM_Settings_Global.php:316
+msgid "Mile"
+msgstr "مایل"
+
+#: Admin/settings/MPTBM_Price_Settings.php:62
+msgid "Minimum Price"
+msgstr "حداقل قیمت"
+
+#: Admin/settings/MPTBM_General_Settings.php:32
+msgid "Model"
+msgstr "مدل"
+
+#: Admin/settings/MPTBM_Extra_Service.php:185 Admin/settings/MPTBM_General_Settings.php:26
+msgid "Name"
+msgstr "نام"
+
+#: Admin/MPTBM_Status.php:55 Frontend/MPTBM_Woocommerce.php:457
+msgid "Name : "
+msgstr "نام:"
+
+#: Admin/MPTBM_CPT.php:85
+msgid "New "
+msgstr "New "
+
+#: Admin/MPTBM_CPT.php:154
+msgid "New Location Name"
+msgstr "نام موقعیت مکانی جدید"
+
+#: Admin/MPTBM_Quick_Setup.php:157 templates/registration/get_details.php:323
+msgid "Next"
+msgstr "بعدی"
+
+#: Admin/MPTBM_Status.php:21 Admin/MPTBM_Settings_Global.php:176
+#: Admin/MPTBM_Settings_Global.php:181 Admin/MPTBM_Settings_Global.php:187
+#: Admin/MPTBM_Settings_Global.php:194 Admin/MPTBM_Settings_Global.php:201
+#: Admin/MPTBM_Settings_Global.php:214 Admin/MPTBM_Settings_Global.php:219
+#: Admin/MPTBM_Settings_Global.php:225 Admin/MPTBM_Settings_Global.php:230
+#: Admin/MPTBM_Settings_Global.php:241
+msgid "No"
+msgstr "خیر"
+
+#: templates/registration/choose_vehicles.php:441
+#: templates/registration/choose_vehicles.php:463
+msgid "No Transport Available !"
+msgstr "حمل و نقل در دسترس نیست!"
+
+#: templates/registration/get_details.php:225
+msgid "No Waiting"
+msgstr "بدون انتظار"
+
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:270
+msgid "Notes about your order, e.g. special notes for delivery."
+msgstr "نکاتی در مورد سفارش شما، به عنوان مثال یادداشت های ویژه برای تحویل"
+
+#: templates/registration/choose_vehicles.php:408
+msgid "Number Of Bags"
+msgstr "تعداد کیف ها"
+
+#: templates/registration/choose_vehicles.php:395
+msgid "Number Of Passengers"
+msgstr "تعداد مسافران"
+
+#: Admin/settings/MPTBM_Date_Settings.php:266
+msgid "Off Dates"
+msgstr "تاریخ های تعظیلی"
+
+#: Admin/settings/MPTBM_Date_Settings.php:240
+msgid "Off Day"
+msgstr "تعطیلی"
+
+#: Admin/settings/MPTBM_Date_Settings.php:232
+msgid "Off Days & Dates Configuration"
+msgstr "پیکربندی روزهای تعطیل و تاریخ"
+
+#: Admin/MPTBM_Settings_Global.php:303
+msgid "On Hold"
+msgstr "در انتظار"
+
+#: Admin/settings/MPTBM_Extra_Service.php:134 Admin/settings/MPTBM_Extra_Service.php:135
+#: Admin/settings/MPTBM_Extra_Service.php:138 Admin/settings/MPTBM_Extra_Service.php:139
+#: Admin/settings/MPTBM_Extra_Service.php:144
+msgid "On/Off Extra Service Settings"
+msgstr "روشن/خاموش تنظیمات خدمات اضافی"
+
+#: Admin/settings/MPTBM_General_Settings.php:81
+msgid "On/Off Feature Extra feature"
+msgstr "ویژگی روشن/خاموش ویژگی اضافی"
+
+#: Admin/settings/MPTBM_Operation_Areas.php:170
+msgid "One Direction (Origin &rarr; Dest)"
+msgstr "یک طرفه ( مبدأ و مقصد )"
+
+#: templates/registration/get_details.php:174
+msgid "One Way"
+msgstr "یک طرفه"
+
+#: Admin/MPTBM_Settings.php:45
+msgid "Operation Area"
+msgstr "منطقه خدمات رسانی"
+
+#: Admin/settings/MPTBM_Operation_Areas.php:88 Admin/settings/MPTBM_Operation_Areas.php:269
+msgid "Operation Area Settings"
+msgstr "تنظیمات منطقه خدمات رسانی"
+
+#: Admin/MPTBM_CPT.php:134
+msgid "Operation Areas"
+msgstr "مناطق خدماتی"
+
+#: Frontend/MPTBM_Woocommerce.php:201
+msgid "Optional Service "
+msgstr "خدمات اختیاری"
+
+#: Admin/MPTBM_Settings_Global.php:176 Admin/MPTBM_Settings_Global.php:187
+#: Admin/MPTBM_Settings_Global.php:194 Admin/MPTBM_Settings_Global.php:201
+#: Admin/MPTBM_Settings_Global.php:214 Admin/MPTBM_Settings_Global.php:225
+msgid "or to make it hidden, select"
+msgstr "یا برای مخفی کردن آن، را انتخاب کنید"
+
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:269
+msgid "Order notes"
+msgstr "یادداشت سفارش"
+
+#: inc/MPTBM_Function.php:153
+msgid "Organizer"
+msgstr "نظم دهنده"
+
+#: Admin/MPTBM_Settings_Global.php:161
+msgid "Organizer Label"
+msgstr "برچسب نظم دهنده"
+
+#: Admin/MPTBM_Settings_Global.php:168
+msgid "Organizer Slug"
+msgstr "اسلاگ نظم دهنده"
+
+#: Admin/settings/MPTBM_Date_Settings.php:115
+msgid "Particular"
+msgstr "خاص"
+
+#: Admin/settings/MPTBM_Date_Settings.php:123
+msgid "Particular Dates"
+msgstr "تاریخ های خاص"
+
+#: Admin/MPTBM_Settings_Global.php:109
+msgid "Pay on service"
+msgstr "پرداخت نقدی"
+
+#: Admin/MPTBM_Settings_Global.php:115
+msgid "Pay on service Booked Status"
+msgstr "پرداخت نقدی خدمات در وضعیت رزرو شده"
+
+#: Admin/MPTBM_Settings_Global.php:101
+msgid "Payment System"
+msgstr "سیستم پرداخت"
+
+#: Admin/MPTBM_Settings_Global.php:120 Admin/MPTBM_Settings_Global.php:304
+msgid "Pending"
+msgstr "در انتظار"
+
+#: Admin/settings/MPTBM_Operation_Areas.php:141
+#: Admin/settings/MPTBM_Operation_Areas.php:157
+msgid "Percentage"
+msgstr "درصد"
+
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:132
+msgid "Phone"
+msgstr "تلفن"
+
+#: templates/registration/summary.php:29 templates/registration/get_details.php:88
+msgid "Pickup Date"
+msgstr "تاریخ سوار شدن"
+
+#: Frontend/MPTBM_Woocommerce.php:345 templates/registration/summary.php:35
+#: templates/registration/get_details.php:122
+msgid "Pickup Location"
+msgstr "محل سوار شدن"
+
+#: Frontend/MPTBM_Woocommerce.php:141
+msgid "Pickup Location "
+msgstr "محل سوار شدن"
+
+#: templates/registration/summary.php:32 templates/registration/get_details.php:97
+msgid "Pickup Time"
+msgstr "زمان سوار شدن"
+
+#: transport_result.php:49 templates/registration/registration_layout.php:34
+msgid "Place Order"
+msgstr "ثبت سفارش"
+
+#: Admin/MPTBM_Settings.php:63
+msgid "Please add why to book feature list one by one."
+msgstr "لطفاً دلایل را به فهرست ویژگی های کتاب اضافه کنید."
+
+#: Admin/MPTBM_Settings.php:82
+msgid "Please add your global extra service which add any transport"
+msgstr "لطفاً خدمات اضافی سراسری  خود را اضافه کنید که هرگونه حمل و نقل را اضافه می کند"
+
+#: Admin/MPTBM_Settings.php:77
+msgid "Please Enter contact phone email"
+msgstr "لطفا برای ارتباط  شماره  همراه خود  را وارد کنید"
+
+#: Admin/MPTBM_Settings.php:75
+msgid "Please Enter contact phone no"
+msgstr "لطفا برای ارتباط  شماره  همراه خود  را وارد کنید"
+
+#: Admin/MPTBM_Settings.php:76
+msgid "Please Enter Contact Section Text"
+msgstr "لطفا متن بخش تماس را وارد کنید"
+
+#: Admin/MPTBM_Settings_Global.php:155
+msgid ""
+"Please enter the slug name you want for category. Remember after change this slug you "
+"need to flush permalink, Just go to  "
+msgstr ""
+"لطفاً نام  مورد نظر خود را برای اسلاگ دسته بندی وارد کنید. به یاد داشته باشید که پس از "
+"تغییر این اسلاگ باید پیوند ثابت را فلاش کنید،"
+
+#: Admin/MPTBM_Settings_Global.php:169
+msgid ""
+"Please enter the slug name you want for the  organizer. Remember, after changing this "
+"slug, you need to flush the permalinks. Just go to "
+msgstr ""
+"لطفاً نام اسلاگ مورد نظر خود را برای سازمان دهنده وارد کنید. به یاد داشته باشید، پس از "
+"تغییر این اسلگ، باید پیوندهای ثابت را شستشو دهید."
+
+#: Admin/MPTBM_Settings_Global.php:134
+msgid ""
+"Please enter the slug name you want. Remember, after changing this slug; you need to "
+"flush permalink; go to"
+msgstr ""
+"لطفا نام مورد نظر خود را وارد کنید. به یاد داشته باشید، پس از تغییر این اسلاگ؛ شما باید "
+"پیوند ثابت را فلاش کنید. "
+
+#: Admin/MPTBM_Settings_Global.php:260
+msgid "Please enter your Google Maps API key in this Options."
+msgstr "لطفاً کلید Google Maps API خود را در این گزینه ها وارد کنید."
+
+#: Admin/settings/MPTBM_Date_Settings.php:18
+msgid "Please select"
+msgstr "لطفا انتخاب کنید"
+
+#: Admin/settings/MPTBM_Date_Settings.php:114 Admin/settings/MPTBM_Price_Settings.php:90
+msgid "Please select ..."
+msgstr "لطفا انتخاب کنید..."
+
+#: Admin/MPTBM_Settings.php:68
+msgid "Please select a related transport from this list."
+msgstr "لطفاً یک وسیله نقلیه مرتبط را از این لیست انتخاب کنید."
+
+#: Admin/MPTBM_Settings_Global.php:102
+msgid "Please Select Payment System."
+msgstr "لطفا سیستم پرداخت را انتخاب کنید."
+
+#: templates/registration/get_details.php:98 templates/registration/get_details.php:194
+msgid "Please Select Time"
+msgstr "لطفا زمان را انتخاب کنید"
+
+#: Admin/MPTBM_Settings_Global.php:296
+msgid "Please Select when and which order status Seat Will be Booked/Reduced."
+msgstr "لطفاً زمان و وضعیت سفارش صندلی رزرو/کاهش  را انتخاب کنید."
+
+#: Admin/MPTBM_Settings_Global.php:116
+msgid ""
+"Please Select when and which order status service Will be Booked/Reduced in Pay on "
+"service."
+msgstr ""
+"لطفاً انتخاب کنید که چه زمانی و کدام سرویس وضعیت سفارش در پرداخت در سرویس رزرو/حذف می‌شود."
+
+#: Admin/MPTBM_Settings.php:83
+msgid "Please select your global extra service"
+msgstr "لطفا خدمات اضافی سراسری خود را انتخاب کنید"
+
+#: Admin/MPTBM_Settings_Global.php:267
+msgid ""
+"Please type Your Location Latitude.This are mandatory for google map show. To find "
+"latitude please "
+msgstr "لطفاً موقعیت جغرافیایی خود را تایپ کنید. این برای نمایش نقشه گوگل اجباری است."
+
+#: Admin/MPTBM_Settings_Global.php:274
+msgid ""
+"Please type Your Location Longitude .This are mandatory for google map show. To find "
+"latitude please "
+msgstr ""
+"لطفاً طول جغرافیایی موقعیت مکانی خود را تایپ کنید. این برای نمایش نقشه گوگل اجباری است."
+
+#: Admin/MPTBM_Settings.php:85
+msgid "Please upload images for gallery"
+msgstr "لطفا تصاویر را برای گالری آپلود کنید"
+
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:119
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:250
+msgid "Postcode / ZIP"
+msgstr "کد پستی / ZIP"
+
+#: Admin/MPTBM_Quick_Setup.php:153 Frontend/MPTBM_Woocommerce.php:621
+#: templates/registration/summary.php:91 templates/registration/get_details.php:319
+msgid "Previous"
+msgstr "قبلی"
+
+#: Admin/settings/MPTBM_Price_Settings.php:131 Admin/settings/MPTBM_Extra_Service.php:187
+msgid "Price"
+msgstr "قیمت"
+
+#: Frontend/MPTBM_Woocommerce.php:199 Frontend/MPTBM_Woocommerce.php:205
+msgid "Price "
+msgstr "قیمت"
+
+#: Frontend/MPTBM_Woocommerce.php:465
+msgid "Price : "
+msgstr "قیمت:"
+
+#: Admin/settings/MPTBM_Price_Settings.php:44 Admin/settings/MPTBM_Price_Settings.php:48
+msgid "Price Settings"
+msgstr "تنظیمات قیمت"
+
+#: Admin/settings/MPTBM_Price_Settings.php:112
+msgid "Price/Hour"
+msgstr "قیمت/ساعت"
+
+#: Admin/settings/MPTBM_Price_Settings.php:103
+msgid "Price/KM"
+msgstr "قیمت/کیلومتر"
+
+#: Admin/MPTBM_Settings.php:36
+msgid "Pricing"
+msgstr "قیمت گذاری"
+
+#: Admin/settings/MPTBM_Price_Settings.php:81
+msgid "Pricing based on"
+msgstr "قیمت گذاری بر اساس"
+
+#: Admin/MPTBM_Settings_Global.php:248
+msgid "Pricing system based on google map"
+msgstr "سیستم قیمت گذاری بر اساس نقشه گوگل"
+
+#: Admin/MPTBM_Settings_Global.php:305
+msgid "Processing"
+msgstr "پردازش"
+
+#: Admin/settings/MPTBM_Extra_Service.php:51 Admin/settings/MPTBM_Extra_Service.php:188
+msgid "Qty Box Type"
+msgstr "نوع جعبه تعداد"
+
+#: Frontend/MPTBM_Woocommerce.php:461
+msgid "Quantity : "
+msgstr "مقدار:"
+
+#: Admin/MPTBM_Quick_Setup.php:17 Admin/MPTBM_Quick_Setup.php:18
+#: Admin/MPTBM_Quick_Setup.php:21
+msgid "Quick Setup"
+msgstr "راه اندازی سریع"
+
+#: Admin/MPTBM_CPT.php:95
+msgid "Remove "
+msgstr "حذف کنید"
+
+#: Admin/settings/MPTBM_Date_Settings.php:116
+msgid "Repeated"
+msgstr "تکرار شد"
+
+#: Admin/settings/MPTBM_Date_Settings.php:176 Admin/settings/MPTBM_Date_Settings.php:177
+msgid "Repeated after"
+msgstr "بعد از آن تکرار شد"
+
+#: Admin/settings/MPTBM_Date_Settings.php:163 Admin/settings/MPTBM_Date_Settings.php:164
+msgid "Repeated Start Date"
+msgstr "تاریخ شروع مجدد"
+
+#: Frontend/MPTBM_Woocommerce.php:381 templates/registration/summary.php:53
+#: templates/registration/get_details.php:175
+msgid "Return"
+msgstr "بازگشت"
+
+#: Frontend/MPTBM_Woocommerce.php:159
+msgid "Return "
+msgstr "بازگشت"
+
+#: Frontend/MPTBM_Woocommerce.php:193 Frontend/MPTBM_Woocommerce.php:421
+#: templates/registration/summary.php:55 templates/registration/get_details.php:185
+msgid "Return Date"
+msgstr "تاریخ بازگشت"
+
+#: Frontend/MPTBM_Woocommerce.php:194 Frontend/MPTBM_Woocommerce.php:426
+#: templates/registration/summary.php:58 templates/registration/get_details.php:193
+msgid "Return Time"
+msgstr "زمان بازگشت"
+
+#: Admin/settings/MPTBM_Date_Settings.php:204
+msgid "Schedule Date Configuration"
+msgstr "زمانبندی پیکربندی تاریخ"
+
+#: templates/registration/get_details.php:264
+msgid "Search"
+msgstr "جستجو کنید"
+
+#: Admin/MPTBM_CPT.php:90
+msgid "Search "
+msgstr "جستجو کنید"
+
+#: Admin/MPTBM_CPT.php:155
+msgid "Search Locations"
+msgstr "جستجوی مکان ها"
+
+#: Admin/MPTBM_Settings_Global.php:295
+msgid "Seat Booked Status"
+msgstr "وضعیت رزرو صندلی"
+
+#: inc/MPTBM_Layout.php:17 templates/registration/extra_service.php:57
+#: templates/registration/extra_service.php:59
+msgid "Select"
+msgstr "انتخاب کنید"
+
+#: templates/registration/vehicle_item.php:87 templates/registration/vehicle_item.php:89
+msgid "Select Car"
+msgstr "ماشین را انتخاب کنید"
+
+#: Admin/settings/MPTBM_Date_Settings.php:241
+msgid "Select checkbox for off day"
+msgstr "روز تعطیل را انتخاب کنید"
+
+#: templates/registration/get_details.php:89 templates/registration/get_details.php:186
+msgid "Select Date"
+msgstr "تاریخ را انتخاب کنید"
+
+#: Admin/settings/MPTBM_Extra_Service.php:158
+msgid "Select extra option"
+msgstr "گزینه اضافی را انتخاب کنید"
+
+#: Admin/settings/MPTBM_Extra_Service.php:154
+msgid "Select extra option :"
+msgstr "گزینه اضافی را انتخاب کنید:"
+
+#: Admin/MPTBM_Settings_Global.php:201
+msgid "Select frontend interval pickup and return time"
+msgstr "انتخاب فاصله پیش رو  و زمان بازگشت"
+
+#: templates/registration/get_details.php:239
+msgid "Select Hours"
+msgstr "ساعت را انتخاب کنید"
+
+#: Admin/settings/MPTBM_Operation_Areas.php:275
+msgid "Select operation area"
+msgstr "منطقه خدمات رسانی را انتخاب کنید"
+
+#: Admin/settings/MPTBM_Operation_Areas.php:94
+msgid "Select Operation Type"
+msgstr "نوع  را انتخاب کنید"
+
+#: Admin/MPTBM_Settings_Global.php:214
+msgid "Select yes if you want to enable different date return field"
+msgstr "اگر می‌خواهید فیلد بازگشت تاریخ متفاوت را فعال کنید، بله را انتخاب کنید"
+
+#: Admin/MPTBM_Settings_Global.php:225
+msgid "Select yes if you want to enable filter via passenger and bags"
+msgstr "اگر می‌خواهید فیلتر از طریق مسافر و چمدان را فعال کنید، بله را انتخاب کنید"
+
+#: Admin/MPTBM_Settings_Global.php:281
+msgid "Select your country Location.This are mandatory for google map show."
+msgstr "مکان کشور خود را انتخاب کنید. این برای نمایش نقشه گوگل اجباری است."
+
+#: templates/registration/extra_service.php:57 templates/registration/vehicle_item.php:87
+msgid "Selected"
+msgstr "انتخاب شده است"
+
+#: Admin/settings/MPTBM_Extra_Service.php:47
+msgid "Service Icon"
+msgstr "آیکون خدمات"
+
+#: Admin/settings/MPTBM_Extra_Service.php:48
+msgid "Service Name"
+msgstr "نام خدمت"
+
+#: Admin/settings/MPTBM_Extra_Service.php:50
+msgid "Service Price"
+msgstr "قیمت خدمات"
+
+#: Frontend/MPTBM_Woocommerce.php:153 Frontend/MPTBM_Woocommerce.php:439
+#: templates/registration/summary.php:68
+msgid "Service Times"
+msgstr "زمان خدمات"
+
+#: Frontend/MPTBM_Woocommerce.php:203
+msgid "Services Name "
+msgstr "نام خدمات"
+
+#: Frontend/MPTBM_Woocommerce.php:204
+msgid "Services Quantity "
+msgstr "تعداد خدمات"
+
+#: Admin/MPTBM_CPT.php:94
+msgid "Set "
+msgstr "تنظیم کنید"
+
+#: Admin/MPTBM_Settings.php:91
+msgid "Set Price per Hour"
+msgstr "تعیین قیمت در ساعت"
+
+#: Admin/MPTBM_Settings.php:90
+msgid "Set Price per KM"
+msgstr "تعیین قیمت در هر کیلومتر"
+
+#: Admin/MPTBM_Settings.php:92
+msgid "Set waiting price per hour"
+msgstr "تعیین قیمت انتظار در ساعت"
+
+#: Admin/MPTBM_Settings_Global.php:67
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: Admin/MPTBM_Settings_Global.php:134 Admin/MPTBM_Settings_Global.php:155
+#: Admin/MPTBM_Settings_Global.php:169
+msgid "Settings-> Permalinks"
+msgstr "تنظیمات-> پیوندهای ثابت"
+
+#: inc/MPTBM_Dependencies.php:100
+msgid "Settings>Map Api Settings"
+msgstr "تنظیمات -> تنظیمات API نقشه"
+
+#: Admin/settings/MPTBM_Extra_Service.php:49
+msgid "Short description"
+msgstr "توضیحات کوتاه"
+
+#: Admin/MPTBM_Settings_Global.php:186
+msgid "Show Search Result In A Different Page"
+msgstr "نمایش نتایج جستجو در یک صفحه متفاوت"
+
+#: Admin/settings/MPTBM_Operation_Areas.php:98
+msgid "Single Operation Area"
+msgstr "منطقه خدمات رسانی واحد"
+
+#: Admin/MPTBM_Settings_Global.php:133
+msgid "Slug"
+msgstr "اسلاگ"
+
+#: Admin/settings/MPTBM_Price_Settings.php:129
+msgid "Start Location"
+msgstr "مکان شروع"
+
+#: Admin/settings/MPTBM_Date_Settings.php:212
+msgid "Start Time"
+msgstr "زمان شروع"
+
+#: Admin/settings/MPTBM_Operation_Areas.php:182
+msgid "Starting Location"
+msgstr "مکان شروع"
+
+#: Admin/settings/MPTBM_Operation_Areas.php:108
+msgid "Starting Location 1"
+msgstr "مکان شروع 1"
+
+#: Admin/settings/MPTBM_Operation_Areas.php:119
+msgid "Starting Location 2"
+msgstr "مکان شروع 2"
+
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:104
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:235
+msgid "State / County"
+msgstr "استان / شهرستان"
+
+#: Admin/MPTBM_Status.php:16
+msgid "Status"
+msgstr "وضعیت"
+
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:68
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:199
+msgid "Street address"
+msgstr "آدرس خیابان"
+
+#: templates/registration/summary.php:26
+msgid "SUMMARY"
+msgstr "خلاصه"
+
+#: Admin/MPTBM_Settings_Global.php:193
+msgid "Take user to another page if location can not be found"
+msgstr "اگر مکان پیدا نشد کاربر را به صفحه دیگری ببرید"
+
+#: Admin/settings/MPTBM_General_Settings.php:93
+msgid "Text"
+msgstr "پیامک"
+
+#: Admin/MPTBM_Quick_Setup.php:172
+msgid ""
+"Thanks for choosing Transportation Booking Manager Plugin for WooCommerce for your site, "
+"Please go step by step and choose some options to get started."
+msgstr ""
+"از اینکه افزونه مدیریت رزرو حمل و نقل را برای ووکامرس برای سایت خود انتخاب کردید، لطفاً "
+"قدم به قدم پیش بروید و چند گزینه را برای شروع انتخاب کنید."
+
+#: Admin/MPTBM_Settings.php:67
+msgid "The description is not prominent by default; however, some themes may show it."
+msgstr ""
+"شرح به طور پیش فرض برجسته نیست. با این حال، برخی از موضوعات ممکن است آن را نشان دهد."
+
+#: Admin/MPTBM_Settings.php:88
+msgid "The initial price that will be added as the starting price"
+msgstr "قیمت اولیه که به عنوان قیمت شروع اضافه می شود"
+
+#: Admin/MPTBM_Settings.php:66
+msgid "The name is how it appears on your site."
+msgstr "نام این است که چگونه در سایت شما ظاهر می شود."
+
+#: Admin/MPTBM_Settings.php:89
+msgid "This is a price calculation model, price will vary based on your choice"
+msgstr "این یک مدل محاسبه قیمت است، قیمت بر اساس انتخاب شما متفاوت خواهد بود"
+
+#: Frontend/MPTBM_Woocommerce.php:157
+msgid "Time "
+msgstr "زمان"
+
+#: Frontend/MPTBM_Woocommerce.php:375
+msgid "Time : "
+msgstr "زمان:"
+
+#: Admin/settings/MPTBM_Date_Settings.php:83 Admin/settings/MPTBM_Date_Settings.php:213
+msgid "To"
+msgstr "به"
+
+#: Admin/settings/MPTBM_Price_Settings.php:83
+msgid "To enable google map pricing option you must enable  "
+msgstr "برای فعال کردن گزینه قیمت گذاری نقشه گوگل باید فعال کنید"
+
+#: templates/registration/summary.php:84
+msgid "Total : "
+msgstr "مجموع:"
+
+#: templates/registration/get_details.php:293
+msgid "TOTAL DISTANCE"
+msgstr "مسافت کل"
+
+#: templates/registration/get_details.php:306
+msgid "TOTAL TIME"
+msgstr "زمان کل"
+
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:93
+#: Frontend/MPTBM_Wc_Checkout_Fields_Helper.php:224
+msgid "Town / City"
+msgstr "شهر /  روستا"
+
+#: Frontend/MPTBM_Woocommerce.php:159 Frontend/MPTBM_Woocommerce.php:380
+#: templates/registration/summary.php:52 templates/registration/get_details.php:172
+msgid "Transfer Type"
+msgstr "نوع وسیله نقلیه"
+
+#: inc/MPTBM_Function.php:133 Admin/MPTBM_Quick_Setup.php:20
+msgid "Transportation"
+msgstr "حمل و نقل"
+
+#: Admin/MPTBM_Quick_Setup.php:171
+msgid "Transportation Booking Manager For Woocommerce Plugin"
+msgstr "مدیر رزرو حمل و نقل برای افزونه ووکامرس"
+
+#: Admin/MPTBM_Quick_Setup.php:206
+msgid "Transportation Label:"
+msgstr "برچسب حمل و نقل:"
+
+#: Admin/MPTBM_Quick_Setup.php:215
+msgid "Transportation Slug:"
+msgstr "اسلاگ حمل و نقل:"
+
+#: Admin/settings/MPTBM_Operation_Areas.php:183
+msgid "Type here to get location name from the map"
+msgstr "برای دریافت نام مکان از روی نقشه اینجا را تایپ کنید"
+
+#: Admin/MPTBM_CPT.php:87
+msgid "Update "
+msgstr "به روز رسانی"
+
+#: Admin/MPTBM_CPT.php:152
+msgid "Update Location"
+msgstr "به روز رسانی مکان"
+
+#: Admin/MPTBM_CPT.php:98
+msgid "Uploaded to this "
+msgstr "در این آپلود شد"
+
+#: Admin/MPTBM_CPT.php:96
+msgid "Use as featured image"
+msgstr "به عنوان تصویر شاخص استفاده کنید"
+
+#: Admin/MPTBM_CPT.php:88 Admin/MPTBM_CPT.php:89
+msgid "View "
+msgstr "مشاهده کنید"
+
+#: Admin/MPTBM_CPT.php:151
+msgid "View Location"
+msgstr "مشاهده مکان"
+
+#: Admin/settings/MPTBM_Price_Settings.php:71
+msgid "Waiting Time Price/Hour"
+msgstr "زمان انتظار قیمت/ساعت"
+
+#: Admin/MPTBM_Quick_Setup.php:126
+msgid "Welcome"
+msgstr "خوش آمدید"
+
+#: Admin/MPTBM_Settings.php:62
+msgid ""
+"Why choose us section, write a key feature list that tourist get Trust to book. you can "
+"switch it off."
+msgstr ""
+"بخش  چرا ما را انتخاب کنید، یک لیست ویژگی های کلیدی بنویسید که گردشگران اعتماد را برای "
+"رزرو کردن دریافت کنند. می توانید آن را خاموش کنید"
+
+#: Admin/MPTBM_Settings_Global.php:254
+msgid "Without google map"
+msgstr "بدون نقشه گوگل"
+
+#: Admin/MPTBM_Quick_Setup.php:180
+msgid "Woocommerce already install , please activate it"
+msgstr "ووکامرس قبلا نصب شده است، لطفا آن را فعال کنید"
+
+#: Admin/MPTBM_Quick_Setup.php:176
+msgid "Woocommerce already installed and activated"
+msgstr "ووکامرزس قبلاً نصب و فعال شده است"
+
+#: Admin/MPTBM_Status.php:42
+msgid "Woocommerce Installed : "
+msgstr "ووکامرس نصب شده:"
+
+#: Admin/MPTBM_Quick_Setup.php:178
+msgid "Woocommerce need to install and active"
+msgstr "ووکامرس  باید نصب و فعال شود"
+
+#: Admin/MPTBM_Settings_Global.php:110
+msgid "woocommerce Payment"
+msgstr "پرداخت ووکامرس"
+
+#: Admin/MPTBM_Status.php:49
+msgid "Woocommerce Version : "
+msgstr "نسخه ووکامرس:"
+
+#: Admin/MPTBM_Status.php:36
+msgid "WordPress Version : "
+msgstr "نسخه وردپرس:"
+
+#: Admin/MPTBM_Status.php:21 Admin/MPTBM_Settings_Global.php:176
+#: Admin/MPTBM_Settings_Global.php:180 Admin/MPTBM_Settings_Global.php:187
+#: Admin/MPTBM_Settings_Global.php:194 Admin/MPTBM_Settings_Global.php:201
+#: Admin/MPTBM_Settings_Global.php:214 Admin/MPTBM_Settings_Global.php:218
+#: Admin/MPTBM_Settings_Global.php:225 Admin/MPTBM_Settings_Global.php:229
+#: Admin/MPTBM_Settings_Global.php:240
+msgid "Yes"
+msgstr "بله"
+
+#: Admin/MPTBM_Quick_Setup.php:231
+msgid ""
+"You are about to Finish & Save Transportation Booking Manager For Woocommerce Plugin "
+"setup process"
+msgstr "شما در شرف اتمام و ذخیره مدیر رزرو حمل و نقل برای پلاگین ووکامرس هستید"
+
+#: inc/MPTBM_Dependencies.php:99
+msgid ""
+"You Must Add Google Map Api key for E-cab taxi booking manager, Because It is dependent "
+"on Google Map. Please enter your Google Maps API key in Plugin Options."
+msgstr ""
+"شما باید کلید Google Map Api را برای مدیر رزرو تاکسی الکترونیکی اضافه کنید، زیرا به "
+"Google Map وابسته است. لطفاً کلید Google Maps API خود را در گزینه‌های افزونه وارد کنید."
+
+#: Admin/MPTBM_Settings_Global.php:266
+msgid "Your Location Latitude"
+msgstr "موقعیت جغرافیایی شما"
+
+#: Admin/MPTBM_Settings_Global.php:273
+msgid "Your Location Longitude"
+msgstr "طول جغرافیایی مکان شما"
