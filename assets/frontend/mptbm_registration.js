@@ -1111,6 +1111,18 @@ async function locationToText(location, id) {
 var myOrigins = [];
 var myDestination = [];
 
+document.getElementById("back").addEventListener("click", function () {
+  if (myDestination.length > 0) {
+    myDestination.pop();
+    refreshMarkers(undefined, 1, true);
+  } else if (myOrigins.length > 0) {
+    myOrigins.pop();
+    refreshMarkers(undefined, 0, true);
+  }
+
+  changeTheButtonsVisibility();
+});
+
 // functions
 function getTheCenterLocation() {
   var center = map.getView().getCenter();
@@ -1119,9 +1131,11 @@ function getTheCenterLocation() {
   return { x: lonLat[0], y: lonLat[1] };
 }
 
-function refreshMarkers(location, theID) {
-  if (markersLayer && markersLayer[theID]) {
-    neshanMap.removeLayer(markersLayer[theID]);
+function refreshMarkers(location, theID, res) {
+  if (res) {
+    markersLayer.forEach((element) => {
+      map.removeLayer(element);
+    });
   }
 
   // add the origins
@@ -1189,6 +1203,8 @@ function refreshMarkers(location, theID) {
     source: vectorSource,
   });
 
+  markersLayer.push(vectorLayer);
+
   map.addLayer(vectorLayer);
 }
 
@@ -1237,6 +1253,7 @@ newMabda.addEventListener("click", function () {
     OriginText += " , " + x;
   }
   getLocationName();
+  changeTheButtonsVisibility();
 });
 
 destinationButton.addEventListener("click", function () {
@@ -1251,7 +1268,41 @@ destinationButton.addEventListener("click", function () {
     destinationText += " , " + x;
   }
   getLocationName();
+  changeTheButtonsVisibility();
 });
+
+const backButton = document.getElementById("back");
+const confirmButton = document.getElementById("confirmButton");
+const defaultOriginText = "انتخاب مبدا";
+const defaultDestinationText = "انتخاب مقصد";
+
+function changeTheButtonsVisibility() {
+  if (myOrigins.length > 0 || myDestination.length > 0) {
+    backButton.style.display = "block";
+  } else {
+    backButton.style.display = "none";
+  }
+
+  if (myOrigins.length > 0 && myDestination.length > 0) {
+    destinationButton.style.display = "block";
+    finButton.style.display = "block";
+    confirmButton.style.display = "none";
+  } else if (myOrigins.length <= 0 && myDestination.length <= 0) {
+    destinationButton.style.display = "none";
+    finButton.style.display = "none";
+    confirmButton.style.display = "block";
+  } else if (myOrigins.length > 0 && myDestination.length <= 0) {
+    destinationButton.style.display = "block";
+    finButton.style.display = "none";
+    confirmButton.style.display = "block";
+  }
+
+  // Update button texts dynamically
+  confirmButton.textContent =
+    myOrigins.length > 0 ? "مبدا بعدی" : defaultOriginText;
+  destinationButton.textContent =
+    myDestination.length > 0 ? "مقصد بعدی" : defaultDestinationText;
+}
 
 finButton.addEventListener("click", function () {
   document.getElementById("nextLevel").style.display = "block";
@@ -1301,18 +1352,6 @@ async function calculatePrice() {
   var counter = 0;
 
   for (const element of myOrigins) {
-    console.log(counter);
-    if (counter >= 1) {
-      tempLoc[1] = element;
-      const { totalDistance, totalTime: time } = await doIt(tempLoc);
-      totalDis += totalDistance;
-      totalTime += time;
-      counter = 0;
-    } else {
-      tempLoc[0] = element;
-      counter++;
-    }
-
     tempLoc[counter] = element;
 
     if (tempLoc[0] && tempLoc[1]) {
@@ -1320,28 +1359,39 @@ async function calculatePrice() {
       totalDis += totalDistance;
       totalTime += time;
       counter = 0;
-      tempLoc[0] = tempLoc[1];
-      tempLoc[1] = tempLoc[1];
     } else {
       counter++;
     }
   }
 
   for (const element of myDestination) {
-    console.log(counter);
-    if (counter >= 1) {
-      tempLoc[1] = element;
+    tempLoc[counter] = element;
+
+    if (tempLoc[0] && tempLoc[1]) {
       const { totalDistance, totalTime: time } = await doIt(tempLoc);
       totalDis += totalDistance;
       totalTime += time;
       counter = 0;
     } else {
-      tempLoc[0] = element;
       counter++;
     }
   }
 
-  mptbm_set_cookie_distance_duration(totalDis, totalTime, totalDis, totalTime);
+  let hours = Math.floor(totalTime / 3600);
+  let minutes = Math.floor((totalTime % 3600) / 60);
+  let timeString =
+    hours > 0 ? `${hours} ساعت و ${minutes} دقیقه` : `${minutes} دقیقه`;
+
+  // Convert distance
+  let distanceInKm = (totalDis / 1000).toFixed(1); // Convert meters to kilometers
+  let distanceString = `${distanceInKm} کیلومتر`;
+
+  mptbm_set_cookie_distance_duration(
+    totalDis,
+    totalTime,
+    distanceString,
+    timeString
+  );
 
   async function doIt(el) {
     return await justDistanceAndTime(el);
@@ -1350,6 +1400,8 @@ async function calculatePrice() {
 
 async function justDistanceAndTime(el) {
   console.log(el);
+  console.log(el);
+  console.log(el[1]);
   const wayDetails = await sendFetchRequest(
     `https://api.neshan.org/v4/direction?type=car&origin=${el[0].y},${el[0].x}&destination=${el[1].y},${el[1].x}&alternative=false`
   );

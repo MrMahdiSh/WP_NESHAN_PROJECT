@@ -423,6 +423,7 @@ $mptbm_passengers = max($mptbm_passengers);
 					<?php
 
 $all_posts = MPTBM_Query::query_transport_list($price_based);
+$counter = 0;
 if ($all_posts->found_posts > 0) {
     $posts = $all_posts->posts;
     $vehicle_item_count = 0;
@@ -432,6 +433,13 @@ if ($all_posts->found_posts > 0) {
         if ($check_schedule) {
             $vehicle_item_count = $vehicle_item_count + 1;
             include MPTBM_Function::template_path("registration/vehicle_item.php");
+            if($counter != count($posts)+1){
+                ?>
+            <div style="margin-top: 10px; margin-bottom: 10px;">❌مسیر های کوهستانی و نیمه کوهستانی و سرویس های درون شهری دارای ضریب قیمتی متفاوت میباشند❌</div>
+            <?php
+            }
+            $counter++; 
+        
         }
     }
 } else {

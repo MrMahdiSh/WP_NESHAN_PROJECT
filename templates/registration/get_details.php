@@ -78,6 +78,25 @@ if (sizeof($all_dates) > 0) {
 		<!-- اضافه کردن CSS و JS مربوط به تقویم جلالی -->
 		<link rel="stylesheet" href="https://unpkg.com/@majidh1/jalalidatepicker/dist/jalalidatepicker.min.css">
 		<script type="text/javascript" src="https://unpkg.com/@majidh1/jalalidatepicker/dist/jalalidatepicker.min.js"></script>
+		<style>
+			@media (max-width: 768px) {
+
+				/* Adjust max-width as needed for your phone view */
+				._dLayout.mptbm_distance_time {
+					max-width: 100% !important;
+					width: 100% !important;
+				}
+
+				#bottomButtons {
+					width: 100% !important;
+				}
+
+				.chaty {
+					position: relative;
+					z-index: -999;
+				}
+			}
+		</style>
 	</head>
 	<div style="min-width: 100vw; position: relative;" class="<?php echo esc_attr($area_class); ?> ">
 
@@ -103,12 +122,11 @@ if (sizeof($all_dates) > 0) {
 
 		<div style="position: absolute; right: 50%; top: 50%; transform: translate(50%,-75%); z-index: 2; display: flex; flex-direction: column;">
 			<img style="width: 40px; height: 70px;" src="https://platform.neshan.org/wp-content/uploads/2023/10/marker-icon-2x-red.png" alt="neshan">
-			<!-- <p style="text-align: center; font-family: 'IRANSans', 'Tahoma', 'Arial';">مبدا</p> -->
 		</div>
 
-		<div style="
+		<div id="bottomButtons" style="
 		position: absolute;
-		bottom: 10px;
+		bottom: 10%;
 		right: 50%;
 		transform: translateX(50%);
 		width: 50%;
@@ -167,6 +185,24 @@ if (sizeof($all_dates) > 0) {
 				تایید مقصد
 			</button>
 
+
+			<button id="back" style="
+			display: none;
+			font-size: 16px;
+			color: white;
+			width: 30%;
+			background-color: #FF6F61;
+			border: none;
+			border-radius: 8px;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+			z-index: 9;
+    ">
+				مرحله قبل
+			</button>
+
+
+
 			<!-- <button id="userLoc" style="
 				font-size: 16px;
 				color: white;
@@ -185,6 +221,11 @@ if (sizeof($all_dates) > 0) {
 
 
 		</div>
+
+		<!-- 
+		<div style="background-color: red; width: auto; padding: 40px; border-radius: 10px; position: absolute; top: 0; right: 0; justify-content: center; align-items: center; z-index: 6; margin-top: 20px;">
+			<p>یک مرحله قبل</p>
+		</div> -->
 
 
 
@@ -250,6 +291,7 @@ if (sizeof($all_dates) > 0) {
 							<span class="far fa-clock mptbm_left_icon allCenter"></span>
 						</label>
 
+
 						<ul class="mp_input_select_list start_time_list">
 							<?php
 							for ($i = $min_minutes; $i <= $max_minutes; $i += $interval_time) {
@@ -268,6 +310,8 @@ if (sizeof($all_dates) > 0) {
 						</ul>
 
 					</div>
+
+
 					<div class="inputList">
 						<label class="fdColumn ">
 							<span><i class="fas fa-map-marker-alt _textTheme_mR_xs"></i><?php esc_html_e('Pickup Location', 'ecab-taxi-booking-manager'); ?></span>
@@ -315,12 +359,35 @@ if (sizeof($all_dates) > 0) {
 					<?php
 					}
 					?>
+
+					<div style="margin-top: 20px;">
+						<label for="numberOfPeople">تعداد مسافر</label>
+						<input type="text" id="numberOfPeople" class="formControl" placeholder="2" />
+					</div>
+
+					<div style="margin-top: 20px;">
+						<label for="sukNumbers">تعداد چمدان</label>
+						<input type="text" id="sukNumbers" class="formControl" placeholder="2" />
+					</div>
+
+					<div style="margin-top: 20px;">
+						<div>
+							<label style="display: flex; flex-direction: row;">
+								<input type="checkbox" class="styled-checkbox" id="checkbox1">
+								<span class="custom-checkbox"></span>
+								<p style="min-width: 50%;">حیوان خانگی</p>
+							</label>
+						</div>
+
+					</div>
+
+
 				</div>
 				<div class="mpForm">
 					<?php if ($taxi_return == 'enable' && $price_based != 'fixed_hourly') { ?>
 						<div class="inputList">
 							<label class="fdColumn">
-								<span><i class="fas fa-exchange-alt _textTheme_mR_xs"></i><?php esc_html_e('Transfer Type', 'ecab-taxi-booking-manager'); ?></span>
+								<span><i class="fas fa-exchange-alt _textTheme_mR_xs"></i>نوع سرویس</span>
 								<select class="formControl" name="mptbm_taxi_return" id="mptbm_taxi_return" data-collapse-target>
 									<option value="1" selected><?php esc_html_e('One Way', 'ecab-taxi-booking-manager'); ?></option>
 									<option data-option-target="#different_date_return" value="2"><?php esc_html_e('Return', 'ecab-taxi-booking-manager'); ?></option>
@@ -412,7 +479,7 @@ if (sizeof($all_dates) > 0) {
 						<span>&nbsp;</span>
 						<button type="button" class="_themeButton_fullWidth" id="mptbm_get_vehicle">
 							<span class="fas fa-search-location mR_xs"></span>
-							<?php esc_html_e('Search', 'ecab-taxi-booking-manager'); ?>
+							انتخاب خودرو
 						</button>
 						<button type="button" onclick="document.getElementById('nextLevel').style.display='none'" style="margin-top: 20px;" class="_themeButton_fullWidth">
 							مرحله قبلی

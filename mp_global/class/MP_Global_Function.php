@@ -159,30 +159,31 @@
 				$date_format = get_option('date_format');
 				$time_format = get_option('time_format');
 				$wp_settings = $date_format . '  ' . $time_format;
-				//$timezone = wp_timezone_string();
-				$timestamp = strtotime($date);
+			
+				// Get WordPress timezone
+				$timezone = new DateTimeZone(wp_timezone_string());
+				$datetime = new DateTime($date, $timezone);
+				$timestamp = $datetime->getTimestamp();
+			
+				// Format the date based on the requested format
 				if ($format == 'date') {
 					$date = date_i18n($date_format, $timestamp);
-				}
-				elseif ($format == 'time') {
+				} elseif ($format == 'time') {
 					$date = date_i18n($time_format, $timestamp);
-				}
-				elseif ($format == 'full') {
+				} elseif ($format == 'full') {
 					$date = date_i18n($wp_settings, $timestamp);
-				}
-				elseif ($format == 'day') {
+				} elseif ($format == 'day') {
 					$date = date_i18n('d', $timestamp);
-				}
-				elseif ($format == 'month') {
+				} elseif ($format == 'month') {
 					$date = date_i18n('M', $timestamp);
-				}
-				elseif ($format == 'year') {
+				} elseif ($format == 'year') {
 					$date = date_i18n('Y', $timestamp);
-				}
-				else {
+				} else {
 					$date = date_i18n($format, $timestamp);
 				}
+			
 				return $date;
+			
 			}
 			public static function date_separate_period($start_date, $end_date, $repeat = 1): DatePeriod {
 				$repeat = max($repeat, 1);
