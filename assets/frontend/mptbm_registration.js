@@ -306,17 +306,17 @@ function convertPersianNumbersToEnglish(str) {
 const startPlaceInput = document.getElementById("mptbm_map_start_place");
 
 // Trigger addressToLocation when the user presses "Enter" or input loses focus
-startPlaceInput.addEventListener("keydown", (event) => {
-  if (event.key === "Enter") {
-    addressToLocation(startPlaceInput.value, 0); // Use debounce to prevent excessive calls
-  }
-});
+// startPlaceInput.addEventListener("keydown", (event) => {
+//   if (event.key === "Enter") {
+//     addressToLocation(startPlaceInput.value, 0); // Use debounce to prevent excessive calls
+//   }
+// });
 
-startPlaceInput.addEventListener("blur", () => {
-  if (startPlaceInput.value != "") {
-    addressToLocation(startPlaceInput.value, 0); // Trigger on input losing focus
-  }
-});
+// startPlaceInput.addEventListener("blur", () => {
+//   if (startPlaceInput.value != "") {
+//     addressToLocation(startPlaceInput.value, 0); // Trigger on input losing focus
+//   }
+// });
 
 /*DROP
 
@@ -329,17 +329,17 @@ OFF*/
 const endPlaceInput = document.getElementById("mptbm_map_end_place");
 
 // Trigger addressToLocation when the user presses "Enter" or input loses focus
-endPlaceInput.addEventListener("keydown", (event) => {
-  if (event.key === "Enter") {
-    addressToLocation(endPlaceInput.value, 1); // Use debounce to prevent excessive calls
-  }
-});
+// endPlaceInput.addEventListener("keydown", (event) => {
+//   if (event.key === "Enter") {
+//     addressToLocation(endPlaceInput.value, 1); // Use debounce to prevent excessive calls
+//   }
+// });
 
-endPlaceInput.addEventListener("blur", () => {
-  if (endPlaceInput.value != "") {
-    addressToLocation(endPlaceInput.value, 1); // Trigger on input losing focus
-  }
-});
+// endPlaceInput.addEventListener("blur", () => {
+//   if (endPlaceInput.value != "") {
+//     addressToLocation(endPlaceInput.value, 1); // Trigger on input losing focus
+//   }
+// });
 
 /**
  *

@@ -372,9 +372,8 @@ if (sizeof($all_dates) > 0) {
 
 					<div style="margin-top: 20px;">
 						<div>
-							<label style="display: flex; flex-direction: row;">
+							<label style="display: flex; flex-direction: row; gap: 10px;">
 								<input type="checkbox" class="styled-checkbox" id="checkbox1">
-								<span class="custom-checkbox"></span>
 								<p style="min-width: 50%;">حیوان خانگی</p>
 							</label>
 						</div>
