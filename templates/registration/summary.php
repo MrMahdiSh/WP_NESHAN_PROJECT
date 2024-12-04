@@ -27,7 +27,7 @@ $price_based = $price_based ?? '';
 				<div class="dividerL"></div>
 
 				<h6 class="_mB_xs"><?php esc_html_e('Pickup Date', 'ecab-taxi-booking-manager'); ?></h6>
-				<p class="_textLight_1" id="pickUpDate"><?php echo esc_html(MP_Global_Function::date_format($date)); ?></p>
+				<p class="_textLight_1" id="pickUpDate"><?php echo esc_html(explode(" ", $date)[0]); ?></p>
 				<div class="dividerL"></div>
 				<h6 class="_mB_xs"><?php esc_html_e('Pickup Time', 'ecab-taxi-booking-manager'); ?></h6>
 				<p class="_textLight_1"><?php echo esc_html(MP_Global_Function::date_format($date, 'time')); ?></p>

@@ -164,9 +164,9 @@ if (!class_exists('MPTBM_Woocommerce')) {
 				if ($fixed_time && $fixed_time > 0) {
 					$item->add_meta_data(esc_html__('Service Times', 'ecab-taxi-booking-manager'), $fixed_time . ' ' . esc_html__('Hour ', 'ecab-taxi-booking-manager'));
 				}
-				$item->add_meta_data(esc_html__('Date ', 'ecab-taxi-booking-manager'), esc_html(MP_Global_Function::date_format($date)));
+				$item->add_meta_data(esc_html__('Date ', 'ecab-taxi-booking-manager'), esc_html(myDateFormat($date)));
 
-				$item->add_meta_data(esc_html__('Time ', 'ecab-taxi-booking-manager'), esc_html(MP_Global_Function::date_format($date, 'time')));
+				$item->add_meta_data(esc_html__('Time ', 'ecab-taxi-booking-manager'), esc_html(myDateFormat($date, 'time')));
 				if ($return && $return > 1) {
 					$item->add_meta_data(esc_html__('Transfer Type', 'ecab-taxi-booking-manager'), esc_html__('Return ', 'ecab-taxi-booking-manager'));
 					if (MP_Global_Function::get_settings('mptbm_general_settings', 'enable_return_in_different_date') == 'yes') {
@@ -202,8 +202,8 @@ if (!class_exists('MPTBM_Woocommerce')) {
 						}
 
 
-						$item->add_meta_data(esc_html__('Return Date', 'ecab-taxi-booking-manager'), esc_html(MP_Global_Function::date_format($return_date_time)));
-						$item->add_meta_data(esc_html__('Return Time', 'ecab-taxi-booking-manager'), esc_html(MP_Global_Function::date_format($return_date_time, 'time')));
+						$item->add_meta_data(esc_html__('Return Date', 'ecab-taxi-booking-manager'), esc_html(myDateFormat($return_date_time)));
+						$item->add_meta_data(esc_html__('Return Time', 'ecab-taxi-booking-manager'), esc_html(myDateFormat($return_date_time, 'time')));
 						$item->add_meta_data('_mptbm_return_date', $return_date);
 						$item->add_meta_data('_mptbm_return_time', $return_time);
 					}
@@ -411,12 +411,12 @@ if (!class_exists('MPTBM_Woocommerce')) {
 						<li>
 							<span class="far fa-calendar-alt"></span>
 							<h6 class="_mR_xs"><?php esc_html_e('Date', 'ecab-taxi-booking-manager'); ?> :</h6>
-							<span><?php echo esc_html(MP_Global_Function::date_format($date)); ?></span>
+							<span><?php echo esc_html(myDateFormat($date)); ?></span>
 						</li>
 						<li>
 							<span class="far fa-clock"></span>
 							<h6 class="_mR_xs"><?php esc_html_e('Time : ', 'ecab-taxi-booking-manager'); ?></h6>
-							<span><?php echo esc_html(MP_Global_Function::date_format($date, 'time')); ?></span>
+							<span><?php echo esc_html(myDateFormat($date, 'time')); ?></span>
 						</li>
 						<?php if ($return && $return > 1) { ?>
 							<li>
@@ -462,12 +462,12 @@ if (!class_exists('MPTBM_Woocommerce')) {
 								<li>
 									<span class="far fa-calendar-alt"></span>
 									<h6 class="_mR_xs"><?php esc_html_e('Return Date', 'ecab-taxi-booking-manager'); ?> :</h6>
-									<span><?php echo esc_html(MP_Global_Function::date_format($return_date_time)); ?></span>
+									<span><?php echo esc_html(myDateFormat($return_date_time)); ?></span>
 								</li>
 								<li>
 									<span class="far fa-clock"></span>
 									<h6 class="_mR_xs"><?php esc_html_e('Return Time', 'ecab-taxi-booking-manager'); ?> :</h6>
-									<span><?php echo esc_html(MP_Global_Function::date_format($return_date_time, 'time')); ?></span>
+									<span><?php echo esc_html(myDateFormat($return_date_time, 'time')); ?></span>
 								</li>
 							<?php } ?>
 						<?php } ?>
@@ -674,4 +674,35 @@ if (!class_exists('MPTBM_Woocommerce')) {
 		}
 	}
 	new MPTBM_Woocommerce();
+}
+
+function myDateFormat($date, $format = 'date')
+{
+	$date_format = get_option('date_format');
+	$time_format = get_option('time_format');
+	$wp_settings = $date_format . '  ' . $time_format;
+
+	// Get WordPress timezone
+	$timezone = new DateTimeZone(wp_timezone_string());
+	$datetime = new DateTime($date, $timezone);
+	$timestamp = $datetime->getTimestamp();
+
+	// Format the date based on the requested format
+	if ($format == 'date') {
+		$date = explode(" ", $date)[0];
+	} elseif ($format == 'time') {
+		$date = date_i18n($time_format, $timestamp);
+	} elseif ($format == 'full') {
+		$date = date_i18n($wp_settings, $timestamp);
+	} elseif ($format == 'day') {
+		$date = date_i18n('d', $timestamp);
+	} elseif ($format == 'month') {
+		$date = date_i18n('M', $timestamp);
+	} elseif ($format == 'year') {
+		$date = date_i18n('Y', $timestamp);
+	} else {
+		$date = date_i18n($format, $timestamp);
+	}
+
+	return $date;
 }
