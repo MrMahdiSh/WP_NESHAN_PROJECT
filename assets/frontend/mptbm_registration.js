@@ -941,6 +941,9 @@ function mptbm_set_cookie_distance_duration(
     let post_id = parent.find('[name="mptbm_post_id"]').val();
     let date = parent.find('[name="mptbm_date"]').val();
     let link_id = $(this).attr("data-wc_link_id");
+    let checkbox1 = document.getElementById("checkbox1").checked;
+    let sukNumbers = document.getElementById("sukNumbers").value;
+    let numberOfPeople = document.getElementById("numberOfPeople").value;
     if (start_place !== "" && end_place !== "" && link_id && post_id) {
       let extra_service_name = {};
       let extra_service_qty = {};
@@ -976,7 +979,9 @@ function mptbm_set_cookie_distance_duration(
           mptbm_return_date: return_target_date,
           mptbm_return_time: return_target_time,
           mptbm_extra_service: extra_service_name,
-          mptbm_extra_service_qty: extra_service_qty,
+          mptbm_number_of_guests: numberOfPeople,
+          mptbm_number_of_suitcase: sukNumbers,
+          mptbm_pet: checkbox1,
         },
         beforeSend: function () {
           dLoader(parent.find(".tabsContentNext"));

@@ -46,6 +46,9 @@ if (!class_exists('MPTBM_Woocommerce')) {
 				$waiting_time = isset($_POST['mptbm_waiting_time']) ? sanitize_text_field($_POST['mptbm_waiting_time']) : 0;
 				$return = isset($_POST['mptbm_taxi_return']) ? sanitize_text_field($_POST['mptbm_taxi_return']) : 1;
 				$fixed_hour = isset($_POST['mptbm_fixed_hours']) ? sanitize_text_field($_POST['mptbm_fixed_hours']) : 0;
+				$mptbm_number_of_guests = isset($_POST['mptbm_number_of_guests']) ? sanitize_text_field($_POST['mptbm_number_of_guests']) : 1;
+				$mptbm_number_of_suitcase = isset($_POST['mptbm_number_of_suitcase']) ? sanitize_text_field($_POST['mptbm_number_of_suitcase']) : 0;
+				$mptbm_pet = isset($_POST['mptbm_pet']) && $_POST['mptbm_pet'] ? "بله" : "خیر";
 				$total_price = $this->get_cart_total_price($post_id);
 				$price = MPTBM_Function::get_price($post_id, $distance, $duration, $start_place, $end_place, $waiting_time, $return, $fixed_hour);
 				$wc_price = MP_Global_Function::wc_price($post_id, $price);
@@ -65,6 +68,9 @@ if (!class_exists('MPTBM_Woocommerce')) {
 				$cart_item_data['mptbm_tp'] = $total_price;
 				$cart_item_data['line_total'] = $total_price;
 				$cart_item_data['line_subtotal'] = $total_price;
+				$cart_item_data['mptbm_number_of_guests'] = $mptbm_number_of_guests;
+				$cart_item_data['mptbm_number_of_suitcase'] = $mptbm_number_of_suitcase;
+				$cart_item_data['mptbm_pet'] = $mptbm_pet;
 				if ($return > 1 && MP_Global_Function::get_settings('mptbm_general_settings', 'enable_return_in_different_date') == 'yes') {
 					$return_target_date = isset($_POST['mptbm_return_date']) ? sanitize_text_field($_POST['mptbm_return_date']) : '';
 					$return_target_time = isset($_POST['mptbm_return_time']) ? sanitize_text_field($_POST['mptbm_return_time']) : '';
@@ -150,6 +156,9 @@ if (!class_exists('MPTBM_Woocommerce')) {
 				$fixed_time = $values['mptbm_fixed_hours'] ?? 0;
 				$extra_service = $values['mptbm_extra_service_info'] ?? [];
 				$price = $values['mptbm_tp'] ?? '';
+				$mptbm_number_of_guests = isset($_POST['mptbm_number_of_guests']) ? sanitize_text_field($_POST['mptbm_number_of_guests']) : 1;
+				$mptbm_number_of_suitcase = isset($_POST['mptbm_number_of_suitcase']) ? sanitize_text_field($_POST['mptbm_number_of_suitcase']) : 0;
+				$mptbm_pet = isset($_POST['mptbm_pet']) && $_POST['mptbm_pet'] ? "بله" : "خیر";
 				$item->add_meta_data(esc_html__('Pickup Location ', 'ecab-taxi-booking-manager'), $start_location);
 				$item->add_meta_data(esc_html__('Drop-Off Location ', 'ecab-taxi-booking-manager'), $end_location);
 				$price_type = MP_Global_Function::get_post_info($post_id, 'mptbm_price_based');
@@ -217,6 +226,9 @@ if (!class_exists('MPTBM_Woocommerce')) {
 						$item->add_meta_data(esc_html__('Price ', 'ecab-taxi-booking-manager'), esc_html(' ( ') . wp_kses_post(wc_price($service['service_price'])) . esc_html(' X ') . esc_html($service['service_quantity']) . esc_html(') = ') . wp_kses_post(wc_price($service['service_price'] * $service['service_quantity'])));
 					}
 				}
+				$item->add_meta_data('تعداد مسافران', $mptbm_number_of_guests);
+				$item->add_meta_data('تعداد چمدان', $mptbm_number_of_suitcase);
+				$item->add_meta_data('حیوان خانگی', $mptbm_pet);
 				$item->add_meta_data('_mptbm_id', $post_id);
 				$item->add_meta_data('_mptbm_date', $date);
 				$item->add_meta_data('_mptbm_start_place', $start_location);
